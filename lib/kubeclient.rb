@@ -1,6 +1,7 @@
 require 'kubeclient/version'
 require 'json'
 require 'rest-client'
+require 'kubeclient/aws_eks_credentials'
 require 'kubeclient/entity_list'
 require 'kubeclient/kube_exception'
 require 'kubeclient/watch_notice'
